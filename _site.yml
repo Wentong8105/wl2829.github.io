@@ -5,6 +5,8 @@ navbar:
   right:
     - text: "Aboutme"
       href: aboutme.html
+    - text: "Index"
+      href: index.html
     - text: "Dashboard"
       href: dashboard.html
     - icon: fa-envelope fa-lg
