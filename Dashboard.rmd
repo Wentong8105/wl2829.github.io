@@ -48,6 +48,7 @@ instacart_plot %>%
   plot_ly(y = ~product_id, color = ~department, type = "box", colors = "viridis")
 ```
 
+
 ### Chart C
 
 ```{r}

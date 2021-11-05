@@ -46,7 +46,7 @@ instacart_plot %>%
     color = ~order_number, alpha = 0.5, text = ~product_name
   )
 ```
-
+The scatter plot shows the distribution of the `product_id` in the different department. The color is decided by `order_number`.
 
 ### Plotly boxplot
 ```{r}
@@ -54,6 +54,7 @@ instacart_plot %>%
   mutate(department = fct_reorder(department, product_id)) %>% 
   plot_ly(y = ~product_id, color = ~department, type = "box", colors = "viridis")
 ```
+The boxplot also shows the median and the mainly distribution of the `product_id` among the departments.
 
 ### Plotly barchat
 ```{r}
@@ -62,4 +63,4 @@ instacart_plot %>%
   mutate(department = fct_reorder(department, n)) %>% 
   plot_ly(x = ~department, y = ~n, color = ~department, type = "bar", colors = "viridis")
 ```
-
+The barplot shows the number of products in each departments. From the plot, the number of produce products is almost 8000 which is the biggest.
