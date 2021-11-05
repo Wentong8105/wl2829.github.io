@@ -1,0 +1,73 @@
+---
+title: "aboutme"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    code_foding: true
+---
+
+### EDUCATIONAL BACKGROUND
+
+------------------------------------
+
+***East China University of Science and Technology (ECUST), Shanghai, China, 08/2017-07/2021***<br>
+Anticipated Degree: Bachelor of Engineering. <br>
+Major: Bioengineering, Overall GPA: 3.39 <br>
+Minor: Mathematics and Applied Mathematics, Overall GPA: 3.47 <br>
+
+***Columbia University in the City of New York, New York, United States, 09/2021-08/2022*** <br>
+Anticipated Degree: Master of Science <br>
+Major: Biostatisics <br>
+
+<br>
+<br>
+<br>
+
+### RESEARCH EXPERIENCES
+
+------------------------------------
+
+***A Scientific Research on Financial Engineering, Chinese Academy of Sciences, 07/2019***<br>
+Responsible for the analysis and evaluation of the historical data of the two stocks, and the calculation of descriptive statistics, as well as the evaluation and analysis of model building and model results in the modeling process. <br>
+Used Python to complete the data cleaning, and the calculation of historical data variance and covariance.<br>
+Employed Matlab to build the model. <br>
+<br>
+<br>
+<br>
+
+### INTERNSHIP EXPERIENCES
+
+------------------------------------
+
+***Financial Analyst Assistant, Bank of Communications, 07/2020-08/2020***<br>
+Project: Credit Analysis of 2.5 Billion Yuan for Linglong Tire. <br>
+Made financial analysis, including financial statement quality test, solvency and liquidity analysis, and borrowing reason analysis. <br>
+Conducted market research through the investigation of the history of credit granting customers, the company's business scope, shareholding structure and actual controllers. <br>
+Designed a credit granting scheme by providing solutions to the problems found in the analysis, and providing appropriate credit granting schemes. <br>
+
+***Risk Management Assistant, NOAH HOLDINGS, 07/2019***<br>
+Organized a responsible investigation on the authenticity and reliability of the initial evaluation of credit granting project with regards to control, law, finance, and the industry according to the requirements of the company's risk management system. <br>
+Conducted post-evaluation on the credit granting project, so as to realize the goal of identifying and controlling the credit granting risk. <br>
+<br>
+<br>
+<br>
+
+### EXTRACURRICULAR AND VOLUNTEER ACTIVITIES
+
+------------------------------------
+
+***Chairman, Etiquette Association of ECUST, 02/2018-09/2019***<br>
+Established Coffee courses to spread Coffee culture, hold etiquette contest, and won the honor of “Top Ten Club”. <br>
+***Bookkeeper, Jinan Library, 01/2018-02/2018***<br>
+Settled the books, typed in the book information into the electronic book management system, and helped people operate the system. <br>
+<br>
+<br>
+<br>
+
+### ADDITIONAL INFORMATION
+
+------------------------------------
+
+Language: Proficient in English, Native in Chinese <br>
+Computer: Good command in C language, Python, SPSS, Matlab <br>

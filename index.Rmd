@@ -1,0 +1,65 @@
+---
+title: "wl2829.github.io"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    code_foding: true
+---
+
+<img src="images/belinda-fewings-6wAGwpsXHE0-unsplash.jpeg" style="width:75%">
+
+## Introduction
+Hello guys! I am Wentong Liu, a first-year graduate student in mailman school. I am very glad to tell you my story! From this website, you can get general information about me! You can read my resume and get access to my github account. Hope you like it!
+
+## Links
+Here is my [resume](aboutme.html)!
+
+Here is my [Github](https://github.com/Wentong8105)!
+
+Here is my [email](https://hw.mail.163.com/js6/main.jsp?sid=wAfvfTPjkXwAGbDVPLjjRQlRKbqTcKZg&df=mail163_letter#module=welcome.WelcomeModule%7C%7B%7D)!
+ 
+## Problem 2
+```{r setup, include=FALSE}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+### Focus on instacart data
+
+```{r}
+data("instacart")
+
+instacart_plot = 
+  instacart %>% 
+  filter(order_dow == 4) %>% 
+  select(order_id, product_id, order_number, product_name, department_id, aisle, department) %>% 
+  filter(order_number >= 30)
+```
+
+### Plotly scatterplot
+```{r}
+instacart_plot %>% 
+  plot_ly(
+    x = ~department_id, y = ~product_id, type = "scatter", mode = "markers", 
+    color = ~order_number, alpha = 0.5, text = ~product_name
+  )
+```
+
+
+### Plotly boxplot
+```{r}
+instacart_plot %>% 
+  mutate(department = fct_reorder(department, product_id)) %>% 
+  plot_ly(y = ~product_id, color = ~department, type = "box", colors = "viridis")
+```
+
+### Plotly barchat
+```{r}
+instacart_plot %>% 
+  count(department) %>% 
+  mutate(department = fct_reorder(department, n)) %>% 
+  plot_ly(x = ~department, y = ~n, color = ~department, type = "bar", colors = "viridis")
+```
+

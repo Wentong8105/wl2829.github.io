@@ -1,0 +1,17 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "Aboutme"
+      href: aboutme.html
+    - text: "Dashboard"
+      href: dashboard.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<lwtznl@163.com>
+    - icon: fa-github fa-lg
+      href: http://github.com/Wentong8105/
+output:
+  html_document:
+    theme: flatly
+    
